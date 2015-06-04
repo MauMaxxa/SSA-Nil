@@ -47,6 +47,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="z7q-f2-8Xt"/>
+                    <connections>
+                        <segue destination="sq9-Ia-tml" kind="show" identifier="goToTest" id="UrO-Hb-VoM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oug-Uq-J3X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -76,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FOm-Db-raD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1375" y="-529"/>
+            <point key="canvasLocation" x="1376" y="-529"/>
         </scene>
         <!--Left Menu View Controller-->
         <scene sceneID="sSX-fu-EDx">
